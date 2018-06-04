@@ -104,11 +104,11 @@ client.on("message", (message) => {
       },
       fields: [{
         name: "Where can I watch it?",
-        value: "[Twitch Stream here](https://www.twitch.tv/ea)\n[Youtube Stream here](https://www.youtube.com/channel/UCIHBybdoneVVpaQK7xMz1ww)"
+        value: "[Twitch Stream here](https://www.twitch.tv/ea)\n[Youtube Stream here](https://gaming.youtube.com/e3)"
       },
       {
         name: "When can I watch it?",
-        value: "**June 9th, 10 AM PT** but [click right here to see your local time](https://www.worldtimebuddy.com)"
+        value: "**June 9th, 11am PDT** but [click right here to see your local time](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "What can we expect?",
@@ -140,11 +140,11 @@ client.on("message", (message) => {
       },
       fields: [{
         name: "Where can I watch it?",
-        value: "[Twitch Stream here](https://www.twitch.tv/xbox)\n[Youtube Stream here](https://www.youtube.com/user/xbox)"
+        value: "[Twitch Stream here](https://www.twitch.tv/xbox)\n[Youtube Stream here](https://gaming.youtube.com/e3)"
       },
       {
         name: "When can I watch it?",
-        value: "**June 10th, 1 PM PT** but [click right here to see your local time](https://www.worldtimebuddy.com)"
+        value: "**June 10th, 11am PDT** but [click right here to see your local time](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "What can we expect?",
@@ -176,11 +176,11 @@ client.on("message", (message) => {
       },
       fields: [{
         name: "Where can I watch it?",
-        value: "[Twitch Stream here](https://www.twitch.tv/bethesda)\n[Youtube Stream here](https://www.youtube.com/user/BethesdaSoftworks)"
+        value: "[Twitch Stream here](https://www.twitch.tv/bethesda)\n[Youtube Stream here](https://gaming.youtube.com/e3)"
       },
       {
         name: "When can I watch it?",
-        value: "**June 10th, 6:30 PM PT** but [click right here to see your local time](https://www.worldtimebuddy.com)"
+        value: "**June 10th, 6:30pm PDT** but [click right here to see your local time](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "What can we expect?",
@@ -209,11 +209,11 @@ client.on("message", (message) => {
       title: "PC Gaming Talk",
       fields: [{
         name: "Where can I watch it?",
-        value: "[Twitch Stream here](https://www.twitch.tv/pcgamer)\n[stream YT](https://www.youtube.com/user/E3)"
+        value: "[Twitch Stream here](https://www.twitch.tv/pcgamer)\n[stream YT](https://gaming.youtube.com/e3)"
       },
       {
         name: "When is the conference?",
-        value: "**June 11th, 3 PM PT** but [click right here to see your local time](https://www.worldtimebuddy.com)"
+        value: "**June 11th, 3pm PDT** but [click right here to see your local time](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "What can we expect?",
@@ -245,11 +245,11 @@ client.on("message", (message) => {
       },
       fields: [{
         name: "Where can I watch it?",
-        value: "[Twitch Stream here](https://www.twitch.tv/ubisoft)\n[Youtube Stream here](https://www.youtube.com/channel/UCBMvc6jvuTxH6TNo9ThpYjg)"
+        value: "[Twitch Stream here](https://www.twitch.tv/ubisoft)\n[Youtube Stream here](https://gaming.youtube.com/e3)"
       },
       {
         name: "When is the conference?",
-        value: "**June 11th, 1 PM PT** but [click right here to see your local time](https://www.worldtimebuddy.com)"
+        value: "**June 11th, 1pm PDT** but [click right here to see your local time](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "What can we expect?",
@@ -281,15 +281,15 @@ client.on("message", (message) => {
       },
       fields: [{
         name: "Where can I watch it?",
-        value: "[Twitch Stream here](https://www.twitch.tv/playstation)\n[Youtube Stream here](https://www.youtube.com/channel/UC-2Y8dQb0S6DtpxNgAKoJKA)"
+        value: "[Twitch Stream here](https://www.twitch.tv/playstation)\n[Youtube Stream here](https://gaming.youtube.com/e3)"
       },
       {
         name: "When is the conference?",
-        value: "June 11th, 6 PM PT but [click right here to see your local time](https://www.worldtimebuddy.com)"
+        value: "**June 11th, 6pm PDT** but [click right here to see your local time](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "What can we expect?",
-        value: "Ghost of Tsusima\nTLOU2\nDeath Stranding\nDMC5?\nShadows Die Twice?\nThird Party games\nPSVR games\nDays Gone\nDreams\n..."
+        value: "Ghost of Tsusima\nTLOU2\nDeath Stranding\nDMC5?\nShadows Die Twice?\nThird Party games\nPSVR games\nDreams\n..."
       }
     ],
     timestamp: new Date(),
@@ -317,11 +317,11 @@ client.on("message", (message) => {
       },
       fields: [{
         name: "Where can I watch it?",
-        value: "[Twitch Stream here](https://www.twitch.tv/nintendo)\n[Youtube Stream here](https://www.youtube.com/user/Nintendo)"
+        value: "[Twitch Stream here](https://www.twitch.tv/nintendo)\n[Youtube Stream here](https://gaming.youtube.com/e3)"
       },
       {
         name: "When is the conference?",
-        value: "**June 12th, 9 AM PT** but [click right here to see your local time](https://www.worldtimebuddy.com)"
+        value: "**June 12th, 9am PDT** but [click right here to see your local time](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "What can we expect?",
@@ -357,7 +357,7 @@ client.on("message", (message) => {
       },
       {
         name: "When is the conference?",
-        value: "**June 11th, 10 AM PT** but [click right here to see your local time](https://www.worldtimebuddy.com)"
+        value: "**June 11th, 10am PDT** but [click right here to see your local time](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "What can we expect?",
