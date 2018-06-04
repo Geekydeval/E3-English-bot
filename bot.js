@@ -49,7 +49,7 @@ client.on("message", (message) => {
       title: "What can I show you? take a look",
       fields: [{
         name: "This is what I can display on the channel:",
-        value:"Here you have the commands:\n**E3!EA** - EA Conference\n**E3!microsoft** - Microsoft Conference\n**E3!bethesda** - Bethesda Conference\n**E3!devolver - Devolver Conference**\n**E3!pc** - PCGaming Conference\n**E3!ubisoft** - Ubisoft Conference\n**E3!sony** - Sony Conference\n**E3!nintendo** - Nintendo Conference\n**E3!square** - SE showcase"
+        value:"Here you have the commands:\n**E3!EA** - EA Conference\n**E3!microsoft** - Microsoft Conference\n**E3!bethesda** - Bethesda Conference\n**E3!devolver** - Devolver Conference\n**E3!pc** - PCGaming Conference\n**E3!ubisoft** - Ubisoft Conference\n**E3!sony** - Sony Conference\n**E3!nintendo** - Nintendo Conference\n**E3!square** - SE showcase"
       }
     ],
     timestamp: new Date(),
