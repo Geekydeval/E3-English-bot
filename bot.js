@@ -49,7 +49,7 @@ client.on("message", (message) => {
       title: "What can I show you? take a look",
       fields: [{
         name: "This is what I can display on the channel:",
-        value:"Here you have the commands:\n**E3!EA** - EA Conference\n**E3!microsoft** - Microsoft Conference\n**E3!bethesda** - Bethesda Conference\n**E3!pc** - PCGaming Conference\n**E3!ubisoft** - Ubisoft Conference\n**E3!sony** - Sony Conference\n**E3!nintendo** - Nintendo Conference\n**E3!square** - SE showcase"
+        value:"Here you have the commands:\n**E3!EA** - EA Conference\n**E3!microsoft** - Microsoft Conference\n**E3!bethesda** - Bethesda Conference\n**E3!devolver - Devolver Conference**\n**E3!pc** - PCGaming Conference\n**E3!ubisoft** - Ubisoft Conference\n**E3!sony** - Sony Conference\n**E3!nintendo** - Nintendo Conference\n**E3!square** - SE showcase"
       }
     ],
     timestamp: new Date(),
@@ -185,6 +185,39 @@ client.on("message", (message) => {
       {
         name: "What can we expect?",
         value: "Prey expansion\nDoom 2?\nStarfiel|new IP?\nFallout76\n..."
+      }
+    ],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "Mr.E3"
+    }
+  }})
+}
+});
+
+client.on("message", (message) => {
+  if (!message.content.startsWith(prefix)) return;
+
+  if (message.content.startsWith(prefix + "devolver")) {
+    message.author.send({embed:{
+        color: 16747008,
+        author: {
+          name: client.user.username,
+          icon_url: client.user.avatarURL
+                },
+      title: "Devolver Digital Showcase",
+      fields: [{
+        name: "Where can I watch it?",
+        value: "[Twitch Stream here](https://www.twitch.tv/devolverdigital)\n[Youtube Stream here](https://gaming.youtube.com/e3)"
+      },
+      {
+        name: "When can I watch it?",
+        value: "**June 10th, 8:00pm PDT** but [click right here to see your local time](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
+      },
+      {
+        name: "What can we expect?",
+        value: "same as last year but crazier"
       }
     ],
     timestamp: new Date(),
