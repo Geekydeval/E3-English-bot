@@ -112,7 +112,7 @@ client.on("message", (message) => {
       },
       {
         name: "What can we expect?",
-        value: "Battlefield\nEA Sports\nSims\nEA original indie\nAnthem\n...."
+        value: "Battlefield V\nEA Sports\nSims\nEA original indie\nAnthem\n...."
       }
     ],
     timestamp: new Date(),
@@ -184,7 +184,7 @@ client.on("message", (message) => {
       },
       {
         name: "What can we expect?",
-        value: "Prey expansion\nDoom 2?\nStarfiel|new IP?\nTES Online|card game\n..."
+        value: "Prey expansion\nDoom 2?\nStarfiel|new IP?\nFallout76\n..."
       }
     ],
     timestamp: new Date(),
@@ -253,7 +253,7 @@ client.on("message", (message) => {
       },
       {
         name: "What can we expect?",
-        value: "The Division 2\nAnno 1800\nWatch_Dogs 3?\nBG&E2?\nSplinter Cell comeback?\nNew IP?\n..."
+        value: "The Division 2\nAssassins Creed:Odyssey\nWatch_Dogs 3?\nBG&E2?\nSplinter Cell comeback?\nNew IP?\n..."
       }
     ],
     timestamp: new Date(),
